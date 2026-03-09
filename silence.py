@@ -243,37 +243,37 @@ def print_usage():
     print("""
 ╔══════════════════════════════════════════════════════════════════════╗
 ║           GELİŞMİŞ STENOGRAFI TOOL - PNG & BMP                       ║
-║           Mesaj ve Dosya Gömme Aracı                                 ║
+║           Mesaj ve Dosya Ekleme Aracı                                ║
 ╚══════════════════════════════════════════════════════════════════════╝
 
 KULLANIM:
 
   1. METİN MESAJI GÖMME:
-     python advanced_stego.py encode-text <resim> <çıktı> "Gizli mesaj"
+     python silence.py encode-text <resim> <çıktı> "Gizli mesaj"
      
      Örnek:
-     python advanced_stego.py encode-text foto.png gizli.png "Parola: ABC123"
+     python silence.py encode-text foto.png gizli.png "Parola: ABC123"
      
   2. DOSYA GÖMME:
-     python advanced_stego.py encode-file <resim> <gömülecek_dosya> <çıktı>
+     python silence.py encode-file <resim> <gömülecek_dosya> <çıktı>
      
      Örnekler:
-     python advanced_stego.py encode-file foto.png script.py gizli.png
-     python advanced_stego.py encode-file foto.bmp program.c gizli.bmp
-     python advanced_stego.py encode-file resim.png data.json output.png
+     python silence.py encode-file foto.png script.py gizli.png
+     python silence.py encode-file foto.bmp program.c gizli.bmp
+     python silence.py encode-file resim.png data.json output.png
      
   3. VERİ ÇIKARMA:
-     python advanced_stego.py decode <resim> [çıktı_dosyası]
+     python silence.py decode <resim> [çıktı_dosyası]
      
      Örnekler:
-     python advanced_stego.py decode gizli.png
-     python advanced_stego.py decode gizli.png extracted_file.c
+     python silence.py decode gizli.png
+     python silence.py decode gizli.png extracted_file.c
      
   4. RESİM KAPASİTESİ KONTROLÜ:
-     python advanced_stego.py capacity <resim>
+     python silence.py capacity <resim>
      
      Örnek:
-     python advanced_stego.py capacity foto.png
+     python silence.py capacity foto.png
 
 DESTEKLENEN DOSYA TİPLERİ:
   • Programlama: .c, .cs, .cpp, .h, .py, .js, .java, .php, .go, .rs
