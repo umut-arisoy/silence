@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Gelişmiş Stenografi Tool - PNG ve BMP dosyalarına mesaj/dosya gömme ve çıkarma aracı
+Gelişmiş Stenografi Tool - PNG ve BMP dosyalarına mesaj/dosya ekleme ve çıkarma aracı
 """
 
 import sys
